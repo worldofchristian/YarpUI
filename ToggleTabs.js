@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { FaAngleRight, FaAngleDown } from 'react-icons/fa';
 
-const Home = () => {
+const ToggleTabs = () => {
   // state for the selected category
   const [activeCategory, setActiveCategory] = useState('');
 
@@ -97,4 +97,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default ToggleTabs;
